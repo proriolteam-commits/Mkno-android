@@ -1,20 +1,12 @@
-# MKNO Android
+# MKNO 2.0 — APK de test
 
-Version Android native de l'application web MKNO fournie dans `index.html`.
+Projet Android hors ligne (interface, bibliothèque mécanique, diagnostic guidé, garage). Le Bluetooth ELM327 est volontairement exclu de cette version.
 
-## Ce qui est inclus
-- Application Android native utilisant WebView.
-- Interface MKNO conservée telle quelle.
-- Fonctionnement hors ligne : le contenu est embarqué dans l'APK.
-- `localStorage` activé pour conserver les données de l'application.
-- Bouton Retour Android géré.
-- Icône MKNO extraite du manifest fourni.
+## Compilation GitHub Actions
+1. Créer un dépôt GitHub séparé ou une branche de test pour éviter d’écraser MKNO 1.0.
+2. Envoyer **le contenu de ce dossier** à la racine du dépôt, y compris `.github/workflows/android-apk.yml`.
+3. Ouvrir l’onglet Actions > Build MKNO test APK > Run workflow (ou pousser sur main).
+4. Après succès, ouvrir l’exécution > Artifacts > MKNO-2.0-test-debug et télécharger l’archive contenant `app-debug.apk`.
+5. Installer le fichier APK sur Android. Son identifiant d’application est `com.mkno.app.interface2` pour conserver MKNO 1.0.
 
-## Générer l'APK
-1. Installer Android Studio.
-2. Ouvrir ce dossier `MKNO-Android`.
-3. Laisser Android Studio synchroniser Gradle.
-4. `Build > Build APK(s)`.
-5. L'APK debug sera généré dans `app/build/outputs/apk/debug/`.
-
-Pour le Play Store, il faudra ensuite créer une signature de production et un paquet AAB.
+Attention : compilation non vérifiée dans cet environnement ; vérifier les résultats sur GitHub. L’APK de debug n’est pas une version Play Store. Ne pas utiliser les données de diagnostic comme seule base pour une intervention dangereuse.

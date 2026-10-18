@@ -1,3 +1,5 @@
-plugins {
-    id 'com.android.application' version '8.7.3' apply false
+plugins { id 'com.android.application' }
+
+android { namespace 'com.mkno.app'; compileSdk 35
+    defaultConfig { applicationId 'com.mkno.app.interface2'; minSdk 23; targetSdk 35; versionCode 1; versionName '2.0-test' }
 }
