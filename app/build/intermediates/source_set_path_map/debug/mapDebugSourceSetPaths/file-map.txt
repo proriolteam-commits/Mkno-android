@@ -1,0 +1,7 @@
+com.mkno.android.app-pngs-0 /workspaces/Mkno-android/app/build/generated/res/pngs/debug
+com.mkno.android.app-resValues-1 /workspaces/Mkno-android/app/build/generated/res/resValues/debug
+com.mkno.android.app-packageDebugResources-2 /workspaces/Mkno-android/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.mkno.android.app-packageDebugResources-3 /workspaces/Mkno-android/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.mkno.android.app-debug-4 /workspaces/Mkno-android/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.mkno.android.app-debug-5 /workspaces/Mkno-android/app/src/debug/res
+com.mkno.android.app-main-6 /workspaces/Mkno-android/app/src/main/res

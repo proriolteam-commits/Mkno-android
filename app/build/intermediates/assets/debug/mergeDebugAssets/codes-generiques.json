@@ -1,0 +1,102 @@
+[
+  {
+    "code": "P0100",
+    "libelle": "Circuit du débitmètre d’air (MAF)",
+    "piste": "Contrôler connecteur, faisceau et alimentation du capteur avant remplacement."
+  },
+  {
+    "code": "P0101",
+    "libelle": "Plage / performance du débitmètre d’air",
+    "piste": "Vérifier admission, filtre à air, prises d’air et données du capteur."
+  },
+  {
+    "code": "P0115",
+    "libelle": "Circuit de température du liquide de refroidissement",
+    "piste": "Contrôler niveau à froid, connectique et cohérence de la mesure."
+  },
+  {
+    "code": "P0128",
+    "libelle": "Température du liquide de refroidissement inférieure à la régulation attendue",
+    "piste": "Contrôler thermostat, sonde et évolution de température."
+  },
+  {
+    "code": "P0130",
+    "libelle": "Circuit de sonde à oxygène, banc 1 capteur 1",
+    "piste": "Contrôler faisceau, prises d’air échappement et données de sonde."
+  },
+  {
+    "code": "P0171",
+    "libelle": "Mélange trop pauvre, banc 1",
+    "piste": "Rechercher prises d’air, pression carburant et défauts de mesure."
+  },
+  {
+    "code": "P0174",
+    "libelle": "Mélange trop pauvre, banc 2",
+    "piste": "Rechercher prises d’air, alimentation carburant et mesure d’air."
+  },
+  {
+    "code": "P0201",
+    "libelle": "Circuit injecteur cylindre 1",
+    "piste": "Contrôler faisceau et alimentation selon procédure constructeur."
+  },
+  {
+    "code": "P0300",
+    "libelle": "Ratés de combustion aléatoires ou multiples",
+    "piste": "Vérifier allumage, admission, carburant et compression selon moteur."
+  },
+  {
+    "code": "P0301",
+    "libelle": "Ratés de combustion cylindre 1",
+    "piste": "Comparer allumage et injection du cylindre 1 avec les autres."
+  },
+  {
+    "code": "P0302",
+    "libelle": "Ratés de combustion cylindre 2",
+    "piste": "Contrôler allumage, injection et compression du cylindre 2."
+  },
+  {
+    "code": "P0335",
+    "libelle": "Circuit capteur de position du vilebrequin",
+    "piste": "Contrôler connecteur, faisceau et signal avec outillage adapté."
+  },
+  {
+    "code": "P0401",
+    "libelle": "Débit de recirculation EGR insuffisant",
+    "piste": "Contrôler commande EGR, conduits et valeurs de fonctionnement."
+  },
+  {
+    "code": "P0420",
+    "libelle": "Efficacité du catalyseur sous le seuil, banc 1",
+    "piste": "Rechercher fuites échappement, ratés et problèmes de richesse avant conclusion."
+  },
+  {
+    "code": "P0442",
+    "libelle": "Petite fuite détectée du système EVAP",
+    "piste": "Contrôler bouchon de réservoir et étanchéité EVAP selon véhicule."
+  },
+  {
+    "code": "P0500",
+    "libelle": "Signal capteur de vitesse véhicule",
+    "piste": "Contrôler signal de vitesse, capteur et faisceau selon architecture."
+  },
+  {
+    "code": "P0562",
+    "libelle": "Tension système trop basse",
+    "piste": "Contrôler batterie, charge alternateur, masses et connexions."
+  },
+  {
+    "code": "P0700",
+    "libelle": "Demande de témoin défaut par calculateur de transmission",
+    "piste": "Lire les défauts du calculateur de boîte avec un outil compatible."
+  },
+  {
+    "code": "P2002",
+    "libelle": "Efficacité du filtre à particules sous le seuil, banc 1",
+    "piste": "Contrôler pression différentielle, capteurs et conditions de régénération."
+  },
+  {
+    "code": "U0100",
+    "libelle": "Communication perdue avec calculateur moteur",
+    "piste": "Contrôler alimentation, masses et réseau CAN selon schéma constructeur."
+  }
+]
